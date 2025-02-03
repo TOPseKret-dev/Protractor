@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\gitRepos\\Protractor\\Protractor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|solutionrelative:controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\detectoanglefrompic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|solutionrelative:controller\\detectoanglefrompic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\comportselectorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|solutionrelative:controller\\comportselectorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 341,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\Program.cs",
+              "RelativeDocumentMoniker": "Controller\\Program.cs",
+              "ToolTip": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\Program.cs",
+              "RelativeToolTip": "Controller\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T21:06:33.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ComPortSelectorForm.cs",
+              "DocumentMoniker": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\ComPortSelectorForm.cs",
+              "RelativeDocumentMoniker": "Controller\\ComPortSelectorForm.cs",
+              "ToolTip": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\ComPortSelectorForm.cs",
+              "RelativeToolTip": "Controller\\ComPortSelectorForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T21:42:04.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetectoAngleFromPic.cs",
+              "DocumentMoniker": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\DetectoAngleFromPic.cs",
+              "RelativeDocumentMoniker": "Controller\\DetectoAngleFromPic.cs",
+              "ToolTip": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\DetectoAngleFromPic.cs",
+              "RelativeToolTip": "Controller\\DetectoAngleFromPic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T22:12:51.742Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 59,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
