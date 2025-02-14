@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "F:\\gitRepos\\Protractor\\Protractor\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|solutionrelative:controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|solutionrelative:controller\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\toupcam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|solutionrelative:controller\\toupcam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|solutionrelative:controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\comportselectorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|solutionrelative:controller\\comportselectorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\detectoanglefrompic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|solutionrelative:controller\\detectoanglefrompic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|solutionrelative:controller\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF33A2F5-48E9-4553-A011-BA0F2132DA46}|Controller\\Controller.csproj|f:\\gitrepos\\protractor\\protractor\\controller\\comportselectorform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,50 +37,101 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 341,
-          "SelectedChildIndex": 0,
+          "DockedHeight": 309,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ComPortSelectorForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\ComPortSelectorForm.cs",
+              "RelativeDocumentMoniker": "Controller\\ComPortSelectorForm.cs",
+              "ToolTip": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\ComPortSelectorForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Controller\\ComPortSelectorForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:49:04.257Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\Program.cs",
+              "RelativeDocumentMoniker": "Controller\\Program.cs",
+              "ToolTip": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\Program.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Controller\\Program.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:49:02.379Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "toupcam.cs",
+              "DocumentMoniker": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\toupcam.cs",
+              "RelativeDocumentMoniker": "Controller\\toupcam.cs",
+              "ToolTip": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\toupcam.cs",
+              "RelativeToolTip": "Controller\\toupcam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:49:01.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\Form1.cs",
+              "RelativeDocumentMoniker": "Controller\\Form1.cs",
+              "ToolTip": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Controller\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T20:48:55.683Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\Program.cs",
               "RelativeDocumentMoniker": "Controller\\Program.cs",
               "ToolTip": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\Program.cs",
               "RelativeToolTip": "Controller\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAiwCwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-31T21:06:33.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ComPortSelectorForm.cs",
               "DocumentMoniker": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\ComPortSelectorForm.cs",
               "RelativeDocumentMoniker": "Controller\\ComPortSelectorForm.cs",
               "ToolTip": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\ComPortSelectorForm.cs",
               "RelativeToolTip": "Controller\\ComPortSelectorForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAgwLUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T21:42:04.597Z"
+              "WhenOpened": "2025-01-31T21:42:04.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DetectoAngleFromPic.cs",
               "DocumentMoniker": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\DetectoAngleFromPic.cs",
               "RelativeDocumentMoniker": "Controller\\DetectoAngleFromPic.cs",
               "ToolTip": "F:\\gitRepos\\Protractor\\Protractor\\Controller\\DetectoAngleFromPic.cs",
               "RelativeToolTip": "Controller\\DetectoAngleFromPic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAE0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T22:12:51.742Z"
+              "WhenOpened": "2025-01-31T22:12:51.742Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedHeight": 59,
+          "DockedHeight": 91,
           "SelectedChildIndex": -1,
           "Children": [
             {

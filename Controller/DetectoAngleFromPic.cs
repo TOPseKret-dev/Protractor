@@ -41,7 +41,7 @@ namespace Controller
                         // Поиск контуров на обработанном изображении.
                         VectorOfVectorOfPoint contours = FindContours(processed);
                         if (contours.Size == 0)
-                            return bitmap;
+                            return DrawCross(bitmap);
 
                         // Выбор основного контура (с максимальной площадью).
                         VectorOfPoint contour = GetMainContour(contours);
@@ -53,27 +53,29 @@ namespace Controller
                         Point[] vertices = approx.ToArray();
                         // Если вершин меньше 3, угол определить невозможно.
                         if (vertices.Length < 3)
-                            return bitmap;
+                            return DrawCross(bitmap);
+
 
                         // Если ровно 4 вершины – выполняем фильтрацию, чтобы устранить близкие точки.
                         if (vertices.Length == 4)
                             vertices = FilterVertices(vertices, 20);
 
                         if (vertices.Length < 3)
-                            return bitmap;
+                            return DrawCross(bitmap);
 
                         // Вычисляем угол по выбранным вершинам.
                         double angle = CalculateAngle(vertices);
                         angleFound = true;
                         // Визуализируем результат: рисуем контур, вершины и текст с углом.
-                        return VisualizeResult(src, contour, vertices, angle);
+                        Bitmap resultBitmap = VisualizeResult(src, contour, vertices, angle);
+                        return DrawCross(resultBitmap);
                     }
                 }
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Ошибка в детекции угла: " + ex);
-                return bitmap;
+                return DrawCross(bitmap);
             }
         }
 
@@ -204,5 +206,32 @@ namespace Controller
                 }
             }
         }
+
+        /// <summary>
+        /// Рисует красный крест в центре изображения.
+        /// </summary>
+        /// <param name="bitmap">Исходное изображение.</param>
+        /// <returns>Изображение с наложенным крестом.</returns>
+        private static Bitmap DrawCross(Bitmap bitmap)
+        {
+            // Создаем копию, чтобы не менять оригинал
+            Bitmap result = new Bitmap(bitmap);
+            using (Graphics g = Graphics.FromImage(result))
+            {
+                int centerX = result.Width / 2;
+                int centerY = result.Height / 2;
+                // Размер креста выбирается пропорционально размерам изображения
+                int crossSize = Math.Min(result.Width, result.Height) / 40;
+                using (Pen pen = new Pen(Color.Red, 2))
+                {
+                    // Горизонтальная линия
+                    g.DrawLine(pen, centerX - crossSize, centerY, centerX + crossSize, centerY);
+                    // Вертикальная линия
+                    g.DrawLine(pen, centerX, centerY - crossSize, centerX, centerY + crossSize);
+                }
+            }
+            return result;
+        }
+
     }
 }

@@ -154,3 +154,6 @@ F:\gitRepos\Protractor\Protractor\Controller\obj\x86\Debug\net8.0-windows\refint
 F:\gitRepos\Protractor\Protractor\Controller\obj\x86\Debug\net8.0-windows\Controller.pdb
 F:\gitRepos\Protractor\Protractor\Controller\obj\x86\Debug\net8.0-windows\Controller.genruntimeconfig.cache
 F:\gitRepos\Protractor\Protractor\Controller\obj\x86\Debug\net8.0-windows\ref\Controller.dll
+F:\gitRepos\Protractor\Protractor\Controller\obj\x86\Debug\net8.0-windows\Controller.sourcelink.json
+F:\gitRepos\Protractor\Protractor\Controller\obj\x86\Debug\net8.0-windows\Protractor.ComPortSelectorForm.resources
+F:\gitRepos\Protractor\Protractor\Controller\obj\x86\Debug\net8.0-windows\Protractor.MainForm.resources

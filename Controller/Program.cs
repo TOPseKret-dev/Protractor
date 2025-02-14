@@ -57,9 +57,20 @@ namespace Protractor
         {
             // Настройка основных параметров формы
             this.Text = "Protractor - Панель контроля";
-            this.Size = new Size(900, 700);
-            this.FormBorderStyle = FormBorderStyle.FixedDialog;
-            this.MaximizeBox = false;
+            this.Size = new Size(1145, 700);
+            this.MaximizeBox = true;
+
+            // Создаем главный Layout
+            TableLayoutPanel mainLayout = new TableLayoutPanel
+            {
+                Dock = DockStyle.Fill,
+                ColumnCount = 2,
+                RowCount = 1,
+            };
+            mainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 250));
+            mainLayout.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100));
+            mainLayout.RowStyles.Add(new RowStyle(SizeType.Percent, 100));
+            this.Controls.Add(mainLayout);
 
             // Создание левой панели управления
             Panel controlPanel = new Panel
@@ -172,6 +183,8 @@ namespace Protractor
             Panel rotationPanel = CreateHorizontalButtonPanel("Поворот -", "Поворот +", RotateNegative_Click, RotatePositive_Click);
             controlPanel.Controls.Add(rotationPanel);
 
+            mainLayout.Controls.Add(controlPanel, 0, 0);
+
             // Создание правой панели для отображения изображения с камеры
             cameraView = new PictureBox
             {
@@ -180,7 +193,7 @@ namespace Protractor
                 BorderStyle = BorderStyle.FixedSingle,
                 SizeMode = PictureBoxSizeMode.Zoom // Сохранение соотношения сторон изображения
             };
-            this.Controls.Add(cameraView);
+            mainLayout.Controls.Add(cameraView, 1, 0);
 
             // Изначально COM-порты не настроены – их выберет пользователь
             motorSerialPort = null;
